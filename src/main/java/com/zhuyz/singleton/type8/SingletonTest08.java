@@ -24,16 +24,11 @@ public class SingletonTest08 {
                 System.out.println(Thread.currentThread().getName() + ": hashCode-> " + instance3.hashCode());
             }, i + "").start();
         }
-
-
-
-
     }
 }
 
 enum Singleton {
 
     INSTANCE;
-
 
 }
