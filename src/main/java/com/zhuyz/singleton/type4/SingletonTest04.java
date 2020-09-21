@@ -23,7 +23,6 @@ public class SingletonTest04 {
                 System.out.println(Thread.currentThread().getName() + ": hashCode-> " + instance3.hashCode());
             }, i + "").start();
         }
-
     }
 }
 
@@ -54,5 +53,4 @@ class Singleton {
         }
         return singleton;
     }
-
 }

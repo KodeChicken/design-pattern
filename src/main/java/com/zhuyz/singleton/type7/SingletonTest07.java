@@ -54,5 +54,4 @@ class Singleton {
     private static class SingletonInstance {
         private static final Singleton SINGLETON = new Singleton();
     }
-
 }
